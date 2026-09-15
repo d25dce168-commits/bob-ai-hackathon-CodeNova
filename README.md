@@ -1,4 +1,4 @@
-# ⚓ SmartPort AI — Intelligent Maritime Port Management & Congestion Prediction Platform
+# 🚀 SmartPort AI — Intelligent Port Congestionatform
 
 SmartPort AI is a full-stack maritime operations management and predictive intelligence system. It combines real-time infrastructure telemetry (berths and STS cranes), live vessel traffic management, and predictive AI modeling to optimize port capacity and mitigate congestion.
 
