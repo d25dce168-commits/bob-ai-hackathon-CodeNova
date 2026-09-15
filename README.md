@@ -3,6 +3,14 @@
 SmartPort AI is a full-stack maritime operations management and predictive intelligence system. It combines real-time infrastructure telemetry (berths and STS cranes), live vessel traffic management, and predictive AI modeling to optimize port capacity and mitigate congestion.
 
 ---
+
+## 🎬 Live Platform Demo
+
+![SmartPort AI Live Demo](./demo/smartport-full-demo.webp)
+
+> 📸 **Visual Tour**: Check out high-resolution screenshots of all 8 system pages in the [**Demo Gallery (`demo/`)**](./demo/README.md).
+
+---
 ## 👥 Team
 
 | Field | Value |
