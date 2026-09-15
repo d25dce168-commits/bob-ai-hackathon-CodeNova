@@ -3,6 +3,26 @@
 SmartPort AI is a full-stack maritime operations management and predictive intelligence system. It combines real-time infrastructure telemetry (berths and STS cranes), live vessel traffic management, and predictive AI modeling to optimize port capacity and mitigate congestion.
 
 ---
+## 👥 Team
+
+| Field | Value |
+|---|---|
+| **Team Name** | CodeNova |
+| **Track** | AI |
+| **Team Lead** | Bhargav Shah — 24dce125@charusat.edu.in |
+| **Members** | Jiya Bhayani, Harsh Chauhan, Jainil Batra |
+
+## 🎯 Problem Statement
+
+Ports face congestion due to unpredictable vessel arrivals, limited berth capacity, crane availability, and growing vessel queues. Port operators need early insights to identify bottlenecks and make timely decisions for efficient port operations.
+
+---
+
+## 💡 Solution
+
+SmartPort AI uses real-time port data and AI-based prediction to monitor vessels, berths, cranes, and congestion levels. It forecasts congestion risks 24–72 hours ahead and provides actionable recommendations for better resource allocation and vessel flow.
+
+---
 
 ## 🌟 Key Features
 
@@ -17,14 +37,18 @@ SmartPort AI is a full-stack maritime operations management and predictive intel
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
-| Layer | Technologies |
-|-------|--------------|
-| **Frontend** | React 18, Vite, React Router 6, Recharts, Lucide Icons |
-| **Styling** | Custom Maritime Design System (Vanilla CSS with CSS Variables & Glassmorphism) |
-| **Backend** | Node.js, Express.js, REST API, Morgan logger, CORS |
-| **Database** | MongoDB, Mongoose ODM (Auto-seeding schemas) |
+| Category | Technology |
+|---|---|
+| **Frontend** | React.js |
+| **Backend** | Node.js + Express.js |
+| **Database** | MongoDB |
+| **AI/ML** | Python + Scikit-learn |
+| **ML Integration** | REST API between Node.js and Python |
+| **Visualization** | Recharts / Chart.js |
+| **Authentication** | JWT |
+| **Version Control** | Git + GitHub |
 
 ---
 
