@@ -1,0 +1,3 @@
+import React from "react";
+const points=[["NOW","LOW","Current"],["+24H","MEDIUM","Rising"],["+48H","HIGH","Peak risk"],["+72H","HIGH","Sustained"]];
+export default function ForecastTimeline(){return <div className="card timeline-card"><div className="card-heading"><div><span className="eyebrow">TIME HORIZON</span><h3>24–72 Hour Forecast</h3></div></div><div className="timeline">{points.map(([time,level,desc],i)=><div className="timeline-point" key={time}><div className={`timeline-dot ${level.toLowerCase()}`}/>{i<points.length-1&&<div className="timeline-line"/>}<span>{time}</span><b>{level}</b><small>{desc}</small></div>)}</div></div>}

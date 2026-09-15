@@ -1,0 +1,2 @@
+import React from "react";
+export default function VesselDetailsCard({vessel}){return <div className="card details-card"><div className="details-grid">{Object.entries(vessel).filter(([k])=>k!=="id").map(([k,v])=><div key={k}><span>{k.replace(/([A-Z])/g," $1")}</span><b>{v}</b></div>)}</div></div>}

@@ -1,0 +1,3 @@
+import React from "react";
+import { Search, SlidersHorizontal } from "lucide-react";
+export default function VesselFilters({search,setSearch,status,setStatus}){return <div className="filters"><div className="search-field"><Search size={17}/><input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search vessel or ID"/></div><select value={status} onChange={e=>setStatus(e.target.value)}><option>All Status</option><option>Waiting</option><option>Approaching</option><option>Scheduled</option><option>Docked</option></select><button className="secondary-button"><SlidersHorizontal size={16}/> Filters</button></div>}

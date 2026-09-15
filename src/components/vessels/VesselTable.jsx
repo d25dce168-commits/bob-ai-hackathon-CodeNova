@@ -1,0 +1,5 @@
+import React from "react";
+import { ArrowUpRight, Ship } from "lucide-react";
+import { Link } from "react-router-dom";
+import StatusBadge from "../common/StatusBadge";
+export default function VesselTable({vessels}){return <div className="table-card"><div className="table-scroll"><table><thead><tr><th>VESSEL</th><th>ETA</th><th>BERTH</th><th>TYPE</th><th>WAIT</th><th>STATUS</th><th></th></tr></thead><tbody>{vessels.map(v=><tr key={v.id}><td><div className="table-vessel"><div className="vessel-avatar"><Ship size={16}/></div><div><b>{v.name}</b><span>{v.id}</span></div></div></td><td>{v.eta}</td><td><span className="berth-tag">{v.berth}</span></td><td>{v.type}</td><td>{v.wait}h</td><td><StatusBadge status={v.status}/></td><td><Link className="row-action" to={`/vessels/${v.id}`}><ArrowUpRight size={17}/></Link></td></tr>)}</tbody></table></div></div>}

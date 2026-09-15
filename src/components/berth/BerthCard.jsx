@@ -1,0 +1,2 @@
+import React from "react";
+export default function BerthCard({id,status,utilization,vessel}){return <div className={`berth-card card ${status.toLowerCase()}`}><div className="berth-card-head"><b>{id}</b><span>{status}</span></div><h3>{vessel || "Available"}</h3><div className="bar"><i style={{width:`${utilization}%`}}/></div><small>{utilization}% utilized</small></div>}
